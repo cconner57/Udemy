@@ -1,6 +1,6 @@
 const { hash } = window.location;
 
-const message = atob(hash.replace('#', ''));
+const message = aToB(hash.replace('#', ''));
 
 if (message) {
   document.querySelector('#message-form').classList.add('hide');
